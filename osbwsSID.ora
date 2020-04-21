@@ -1,0 +1,5 @@
+OSB_WS_HOST=https://s3.amazonaws.com
+OSB_WS_WALLET='location=file:/apps/oracle/12102/db_1/dbs/osbws_wallet CREDENTIAL_ALIAS=nahdrav-_aws'
+OSB_WS_BUCKET=css-uat-ops-oracle-backups
+OSB_WS_IAM_ROLE=CSS-EC2-UAT-DatabaseServer
+OSB_WS_IAM_ROLE_META_URI=http://169.254.169.254/latest/meta-data/iam/security-credentials/CSS-EC2-UAT-DatabaseServer
